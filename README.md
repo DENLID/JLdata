@@ -1,16 +1,16 @@
 # <p align = "center">JsonListdata
 <p align = "center">JsonListdata is easy instrument for read and write json file
 
-## Getting started
-* Installation from source
-```
-$ git clone https://github.com/DENLID/JLdata.git
-```
 ## Content
 * [Getting started](#getting-started)
 * [First steps](#firsts-steps)
   * [Edit data](#edit-data)
   * [Find cell](#find-cell)
+## Getting started
+* Installation from source
+```
+$ git clone https://github.com/DENLID/JLdata.git
+```
 ## First steps
 ### Edit data
 The JLD class enables us to interact with the file.
