@@ -38,11 +38,11 @@ In first argument specify data. In sencond arg key which will searched cell. In 
 {
   "name": [
     {
-    "name": "Bob"
+    "name": "Bob",
     "age": "18"
     },
     {
-    "name": "Ilya"
+    "name": "Ilya",
     "age": "20"
     }
   ]
