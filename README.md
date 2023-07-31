@@ -48,13 +48,14 @@ In first argument specify data. In sencond arg key which will searched cell. In 
   ]
 }
 '''
+users = data["name"]
 
-user = JL.find_cell(db, "name", "Bob")
+user = JL.find_cell(users, "name", "Bob")
 print(user["age"]) # 18
 
-user = JL.find_cell(db, "name", "Ilya")
+user = JL.find_cell(users, "name", "Ilya")
 print(user["age"]) # 20
 
-user = JL.find_cell(db, "name", "Denis")
+user = JL.find_cell(users, "name", "Denis")
 print(user["age"]) # None
 ```
