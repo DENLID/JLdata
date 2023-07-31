@@ -15,25 +15,25 @@ $ git clone https://github.com/DENLID/JLdata.git
 ### Edit data
 The JLD class enables us to interact with the file.
 In argument `file` you can set your json file.
-```
+```python
 from JLdata import JLD
 import JLdata as JL
 
 db = JLD(file="db.json")
 ```
 To get data write this.
-```
+```python
 data = db.data
 ```
 We can create/edit in data whereupon commit changes.
-```
+```python
 data["name"] = "Denis"
 db.commit()
 ```
 ### Find cell
 To find cell by name or your key in data base use the method find_cell()
 In first argument specify data. In sencond arg key which will searched cell. In third arg content in key.
-```
+```python
 ''' Example file
 {
   "name": [
