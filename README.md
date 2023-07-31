@@ -11,7 +11,7 @@ $ git clone https://github.com/DENLID/JLdata.git
 * [First steps](#firsts-steps)
   * [Edit data](#edit-data)
   * [Find cell](#find-cell)
-## Firsts steps
+## First steps
 ### Edit data
 The JLD class enables us to interact with the file.
 In argument `file` you can set your json file.
