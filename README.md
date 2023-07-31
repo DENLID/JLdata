@@ -2,9 +2,19 @@
 <p align = "center">JsonListdata is easy instrument for read and write json file
 
 ## Getting started
-<li>Installation from source</li>
-<pre class="notranslate"><code>$ git clone https://github.com/DENLID/JLdata.git</code></pre>
-* hi
-'''
+* Installation from source
+```
 $ git clone https://github.com/DENLID/JLdata.git
-'''
+```
+
+## Firsts steps
+### Edit data
+The JLD class enables us to interact with the file.
+In argument `file` you can set your file
+```
+from JLdata import JLD
+import JLdata as JL
+
+db = JLD(file="db.json")
+data = db.data
+```
