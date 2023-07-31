@@ -1,2 +1,2 @@
-# <tr alight = "center">JsonListdata<tr>
+# <tr align = "center">JsonListdata<tr>
 JsonListdata
