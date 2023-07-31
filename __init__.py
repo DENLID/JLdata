@@ -1,1 +1,1 @@
-from .source.JLdata.py import JLdata
+from .source.JLdata import *
