@@ -10,7 +10,7 @@ $ git clone https://github.com/DENLID/JLdata.git
 ## Firsts steps
 ### Edit data
 The JLD class enables us to interact with the file.
-In argument `file` you can set your file
+In argument `file` you can set your json file.
 ```
 from JLdata import JLD
 import JLdata as JL
