@@ -10,7 +10,7 @@ data = db.data
 }
 """
 
-data[name] = "Denis"
+data["name"] = "Denis"
 db.commit()
 
 """ after
