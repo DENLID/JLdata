@@ -3,4 +3,4 @@
 
 # <h2>Getting started</h2>
 <li>Installation from source</li>
-<code>$ git clone https://github.com/DENLID/JLdata.git</code>
+<pre class="notranslate"><code>$ git clone https://github.com/DENLID/JLdata.git</code></pre>
